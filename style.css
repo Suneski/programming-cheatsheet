@@ -1,5 +1,8 @@
 h1 {
   font-family: 'Press Start 2P', cursive;
+  color: white;
+  border: 1px dashed white;
+  background-color: black;
 }
 
 h2 {
@@ -10,10 +13,16 @@ h1, h2 {
   text-align: center;
 }
 
-.cool {
-  border: 1px dotted black;
-}
-
 #wonky {
   text-align: right;
+}
+
+div {
+  border: dashed 1px red;
+  display: block;
+  width: 200px;
+}
+
+span {
+  border: solid 1px blue;
 }
