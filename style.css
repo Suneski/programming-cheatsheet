@@ -10,6 +10,10 @@ h1, h2 {
   text-align: center;
 }
 
+.cool {
+  border: 1px dotted black;
+}
+
 #wonky {
   text-align: right;
 }
