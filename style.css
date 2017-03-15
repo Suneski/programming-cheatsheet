@@ -1,28 +1,111 @@
-h1 {
+.header {
   font-family: 'Press Start 2P', cursive;
   color: white;
-  border: 1px dashed white;
   background-color: black;
-}
-
-h2 {
-  font-family: 'Roboto Mono', monospace;
-}
-
-h1, h2 {
+  padding: 20px;
   text-align: center;
 }
 
-#wonky {
-  text-align: right;
+.left-panel {
+  display: inline-block;
+  background-color: grey;
+  float: both;
+  clear: left;
+  position: absolute;
+  height: 1000px;
+  width: 250px;
 }
 
-div {
-  border: dashed 1px red;
-  display: block;
+.buttons {
+  background-color: lightgrey;
+  height: 50px;
   width: 200px;
+  radius: 5%;
+  margin: 10px 25px;
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 20px;
+  border-radius: 5%;
 }
 
-span {
-  border: solid 1px blue;
+.buttons:hover {
+  background-color: rgba(232, 232, 232, 0.5);
+}
+
+.main-area {
+  margin-left: 270px;
+  margin-top: 20px;
+}
+
+li {
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.light-steel-blue {
+  color: lightsteelblue;
+}
+
+.pale-goldenrod {
+  color: palegoldenrod;
+}
+
+.plum {
+  color: plum;
+}
+
+a:hover {
+  color: red;
+}
+
+.hex-red {
+  color: #FF0000;
+}
+
+.lighter-hex-red {
+  color: #ff7777;
+}
+
+#new-color {
+  color: rgb(145, 54, 255);
+}
+
+#fully-opaque {
+  background-color: rgba(0, 0, 0, 1);
+  width: 100px;
+  height: 100px;
+}
+
+#seventy-five-opaque {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100px;
+  height: 100px;
+}
+
+#fifty-opaque {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100px;
+  height: 100px;
+}
+
+#twenty-five-opaque {
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100px;
+  height: 100px;
+}
+
+#ten-opaque {
+  background-color: rgba(0, 0, 0, 0.10);
+  width: 100px;
+  height: 100px;
 }
