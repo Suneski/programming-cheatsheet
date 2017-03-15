@@ -89,6 +89,10 @@ header {
   text-decoration: none;
 }
 
+.left-panel a {
+  color: black;
+}
+
 .left-panel a:visited {
   color: black;
 }
