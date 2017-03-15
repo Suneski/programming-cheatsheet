@@ -1,19 +1,21 @@
-.header {
+header {
   font-family: 'Press Start 2P', cursive;
   color: white;
   background-color: black;
-  padding: 20px;
+  height: 150px;
   text-align: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 
 .left-panel {
-  display: inline-block;
   background-color: grey;
-  float: both;
-  clear: left;
-  position: absolute;
+  margin-top: 150px;
   height: 1000px;
   width: 250px;
+  position: fixed;
 }
 
 .buttons {
@@ -31,13 +33,15 @@
   background-color: rgba(232, 232, 232, 0.5);
 }
 
-.main-area {
-  margin-left: 270px;
-  margin-top: 20px;
-  width: 1000px;
+.container {
+  position: absolute;
+  margin-left: 275px;
+  margin-top: 150px;
+  width: 75%;
 }
 
-li {
+.colors-bold {
+  display: block;
   font-weight: bold;
 }
 
@@ -51,6 +55,18 @@ li {
 
 .green {
   color: green;
+}
+
+.orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.purple {
+  color: purple;
 }
 
 .light-steel-blue {
@@ -109,4 +125,23 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.10);
   width: 100px;
   height: 100px;
+}
+
+#lh-1 {
+  margin-left: 25px;
+}
+
+#lh-1point5 {
+  line-height: 1.5;
+  margin-left: 25px;
+}
+
+#lh-2 {
+  line-height: 2;
+  margin-left: 25px;
+}
+
+#lh-5 {
+  line-height: 5;
+  margin-left: 25px;
 }

@@ -8,10 +8,10 @@
   </head>
 
   <body>
-    <div class="header">
+    <header>
       <h1>David's Programming Cheat Sheet</h1>
       <h2>(and stuff)</h2>
-    </div>
+    </header>
 
     <div class="left-panel">
 
@@ -33,28 +33,35 @@
         </button>
       </a>
 
+      <a href="line-height.html">
+        <button class="buttons">
+          LINE-HEIGHT
+        </button>
+      </a>
+
     </div>
 
-    <div class="main-area">
-      <h1 style="color:red; display: inline;">C</h1><h1 style="color:orange; display: inline;">O</h1><h1 style="color:yellow; display: inline;">L</h1><h1 style="color:green; display: inline;">O</h1><h1 style="color:blue; display: inline;">R</h1><h1 style="color:purple; display: inline;">S</h1>
+    <div class="container">
+      <h1 class="colors-bold"><span class="red">C</span><span class="orange">O</span><span class="yellow">L</span><span class="green">O</span><span class="blue">R</span><span class="purple">S</span></h1>
+
       <p>You can use different colors in various ways to bring your webpage to life. However, whether you're setting the font color with "color:" or setting a background color with "background-color:" you still need to select a color. But how???</p>
 
-      <h2>Three Common Approaches</h2>
+      <h2 class="colors-bold">Three Common Approaches</h2>
       <ul>
-        <li>Name</li>
+        <li><span class="colors-bold">Name</span>
         <p>Many colors can be summoned just by their name. Many of these colors tend to be common (<span class="red">RED</span>, <span class="blue">BLUE</span>, <span class="green">GREEN</span>), but others are rather obscure. (<span class="light-steel-blue">LIGHTSTEELBLUE</span>, <span class="pale-goldenrod">PALEGOLDENROD</span>, <span class="plum">PLUM</span>).</p>
-        <p>For a full list of colors that can be called by name, visit <a href="https://www.w3schools.com/cssref/css_colors.asp" target="_blank">W3Schools'</a> page on colors.</p>
+        <p>For a full list of colors that can be called by name, visit <a href="https://www.w3schools.com/cssref/css_colors.asp" target="_blank">W3Schools'</a> page on colors.</p></li>
 
-        <li>Hexadecimal Value</li>
+        <li><span class="colors-bold">Hexadecimal Value</span>
         <p>Colors can also be summoned by using their corresponding hexadecimal numbers.</p>
         <p>For example, the hexadecimal for the color <span class="hex-red">red</span> is <span class="hex-red">#FF0000</span>.</p>
         <p>With hexadecimal notation, you can get colors that are more specific than if you just use a color's name. You can experiment with various shades.</p>
-        <p>If you use <span class="lighter-hex-red">#ff7777</span>, you get a lighter shade of <span class="hex-red">red</span>.
+        <p>If you use <span class="lighter-hex-red">#ff7777</span>, you get a lighter shade of <span class="hex-red">red</span>.</p></li>
 
-        <li>RGB Value</li>
+        <li><span class="colors-bold">RGB Value</span>
         <p>Another way to classentify a color is with its RGB value (RGB stands for Red-Green-Blue).</p>
         <p>By combining varying intensities of <span class="red">red</span>, <span class="green">green</span>, and <span class="blue">blue</span>, new colors can be attained. The "intensity scale" ranges from 0 to 255.</p>
-        <p>The RGB value for (standard) <span class="blue">blue</span> is <span class="blue">rgb(0, 0, 255)</span>. The values for <span class="red">red</span> and <span class="green">green</span> are set to zero. But if you sprinkle some <span class="red">red</span> and <span class="green">green</span>, you get a new color (example: <span id="new-color">rgb(145, 54, 255)</span>).
+        <p>The RGB value for (standard) <span class="blue">blue</span> is <span class="blue">rgb(0, 0, 255)</span>. The values for <span class="red">red</span> and <span class="green">green</span> are set to zero. But if you sprinkle some <span class="red">red</span> and <span class="green">green</span>, you get a new color (example: <span id="new-color">rgb(145, 54, 255)</span>).</li>
       </ul>
     </div>
 
