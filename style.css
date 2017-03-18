@@ -67,13 +67,14 @@ header {
   top: 0;
 }
 
-header h1 {
+#title {
   font-size: 20px;
+
 }
 
-header h2 {
+#sub-title {
   font-size: 15px;
-  margin-top: 10px;
+	padding-top: 10px;
 }
 
 /* ****************************************************** */
@@ -98,7 +99,7 @@ nav {
   color: black;
 }
 
-a {
+nav > a {
   border: rgba(108, 108, 108, 0.63) 1px solid;
   display: block;
   color: white;
@@ -131,6 +132,32 @@ a {
   color: black;
   padding-top: 20px;
   padding-left: 10px;
+}
+
+.content h1 {
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.content h2 {
+	font-size: 25px;
+	padding: 10px 0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.content h3 {
+	font-size: 20px;
+	font-style: italic;
+	margin: 30px 0 10px 0;
+}
+
+p {
+	font-style: normal;
+	padding: 5px 0;
+	font-size: 15px;
+	line-height: 1.5;
 }
 
 /* ************************************************** */
