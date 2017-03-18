@@ -98,18 +98,21 @@ nav {
   color: black;
 }
 
+a {
+  border: rgba(108, 108, 108, 0.63) 1px solid;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
 .buttons {
   background-color: lightgrey;
-  display: inline-block;
-  margin: 5% 10%;
-  height: 50px;
-  width: 80%;
-  text-align: center;
-
   font-family: Helvetica, sans-serif;
   font-size: 20px;
+  padding: 15px 0;
+  display: block;
+  text-align: center;
   border-radius: 5px;
-
 }
 
 .buttons:hover {
@@ -121,10 +124,12 @@ nav {
 /* *************************************************** */
 
 .content {
-  width: 80%;
+  width: 79%;
   height: 1000px;
   float: right;
   color: black;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 /* ************************************************** */
@@ -160,35 +165,7 @@ footer {
 
 
 
-#fully-opaque {
-  background-color: rgba(0, 0, 0, 1);
-  width: 100px;
-  height: 100px;
-}
 
-#seventy-five-opaque {
-  background-color: rgba(0, 0, 0, 0.75);
-  width: 100px;
-  height: 100px;
-}
-
-#fifty-opaque {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100px;
-  height: 100px;
-}
-
-#twenty-five-opaque {
-  background-color: rgba(0, 0, 0, 0.25);
-  width: 100px;
-  height: 100px;
-}
-
-#ten-opaque {
-  background-color: rgba(0, 0, 0, 0.10);
-  width: 100px;
-  height: 100px;
-}
 
 #lh-1 {
   margin-left: 25px;
