@@ -1,15 +1,3 @@
-.colors-bold {
-  display: block;
-  font-weight: bold;
-}
-
-
-
-
-
-
-
-
 
 
 .red {
@@ -58,10 +46,6 @@
 
 .left-panel a:visited {
   color: black;
-}
-
-a:hover {
-  color: red;
 }
 
 .hex-red {
