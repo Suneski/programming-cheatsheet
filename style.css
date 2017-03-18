@@ -94,7 +94,7 @@ header {
 nav {
   background-color: grey;
   width: 20%;
-  height: 1000px;
+  height: 1500px;
   float: left;
   color: black;
 }
@@ -127,7 +127,7 @@ nav > a {
 
 .content {
   width: 79%;
-  height: 1000px;
+  height: 1500px;
   float: right;
   color: black;
   padding-top: 20px;
@@ -153,7 +153,11 @@ nav > a {
 	margin: 30px 0 10px 0;
 }
 
-p {
+.content ul, ol {
+	margin: 10px 0;
+}
+
+.content p {
 	font-style: normal;
 	padding: 5px 0;
 	font-size: 15px;
