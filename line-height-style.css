@@ -1,0 +1,49 @@
+#lh-1 {
+  margin-left: 25px;
+}
+
+#lh-1point5 {
+  line-height: 1.5;
+  margin-left: 25px;
+}
+
+#lh-2 {
+  line-height: 2;
+  margin-left: 25px;
+}
+
+#lh-5 {
+  line-height: 5;
+  margin-left: 25px;
+}
+
+.four-values {
+  border-radius: 10px 20px 30px 40px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.three-values {
+  border-radius: 10px 20px 30px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.two-values {
+  border-radius: 10px 20px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.one-value {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 20px;
