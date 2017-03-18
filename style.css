@@ -63,24 +63,32 @@ header {
   font-family: 'Press Start 2P', cursive;
   color: white;
   background-color: black;
-  height: 150px;
   text-align: center;
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
+  padding: 20px 0 20px 0;
+  width: 100%;
 }
+
+header h1 {
+  font-size: 20px;
+}
+
+header h2 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
 
 .left-panel {
   background-color: grey;
-  margin-top: 150px;
   height: 1000px;
   width: 20%;
   float: left;
   position: fixed;
 }
 
-/*.container {
+/*
+
+.container {
   margin-top: 150px;
   height: 1000px;
   width: 77%;
