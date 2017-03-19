@@ -1,0 +1,61 @@
+
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.purple {
+  color: purple;
+}
+
+.light-steel-blue {
+  color: lightsteelblue;
+}
+
+.pale-goldenrod {
+  color: palegoldenrod;
+}
+
+.plum {
+  color: plum;
+}
+
+.nav-button {
+  text-decoration: none;
+}
+
+.left-panel a {
+  color: black;
+}
+
+.left-panel a:visited {
+  color: black;
+}
+
+.hex-red {
+  color: #FF0000;
+}
+
+.lighter-hex-red {
+  color: #ff7777;
+}
+
+#new-color {
+  color: rgb(145, 54, 255);
+}

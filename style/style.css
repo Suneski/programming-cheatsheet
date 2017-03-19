@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ************************************************** */
+/*                       HEADER                       */
+/* ************************************************** */
+
+header {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+#title {
+  font-size: 20px;
+
+}
+
+#sub-title {
+  font-size: 15px;
+	padding-top: 10px;
+}
+
+/* ****************************************************** */
+/*                       MAIN AREA                        */
+/* ****************************************************** */
+
+.container {
+  margin-top: 85px;
+  margin-bottom: 50px;
+
+}
+
+/* ****************************************************** */
+/*                       NAVIGATION                       */
+/* ****************************************************** */
+
+nav {
+  background-color: grey;
+  width: 20%;
+  height: 1500px;
+  float: left;
+  color: black;
+}
+
+nav > a {
+  border: rgba(108, 108, 108, 0.63) 1px solid;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.buttons {
+  background-color: lightgrey;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 15px 0;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.buttons:hover {
+  background-color: rgba(232, 232, 232, 0.5);
+  color: rgba(0, 3, 255, 0.55);
+}
+
+/* *************************************************** */
+/*                       CONTENT                       */
+/* *************************************************** */
+
+.content {
+  width: 72%;
+  height: 1500px;
+  float: right;
+  color: black;
+  padding-top: 20px;
+  padding-left: 10px;
+	margin-right: 7%;
+}
+
+.content h1 {
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.content h2 {
+	font-size: 25px;
+	padding: 10px 0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.content h3 {
+	font-size: 20px;
+	font-style: italic;
+	margin: 30px 0 10px 0;
+}
+
+.content ul, ol {
+	margin: 10px 0;
+}
+
+.content p {
+	font-style: normal;
+	padding: 5px 0;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.content img {
+	width: 800px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 15px;
+	border: 1px black solid;
+}
+
+.add-res {
+  margin-top: 20px;
+}
+
+
+/* ************************************************** */
+/*                       FOOTER                       */
+/* ************************************************** */
+
+footer {
+  position:fixed;
+  color: white;
+  font-size: 10px;
+  background-color:black;
+  text-align: right;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  padding: 20px 15px 20px 0;
+}

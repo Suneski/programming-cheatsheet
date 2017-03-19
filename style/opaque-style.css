@@ -1,0 +1,29 @@
+#fully-opaque {
+  background-color: rgba(0, 0, 0, 1);
+  width: 100px;
+  height: 100px;
+}
+
+#seventy-five-opaque {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100px;
+  height: 100px;
+}
+
+#fifty-opaque {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100px;
+  height: 100px;
+}
+
+#twenty-five-opaque {
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100px;
+  height: 100px;
+}
+
+#ten-opaque {
+  background-color: rgba(0, 0, 0, 0.10);
+  width: 100px;
+  height: 100px;
+}
