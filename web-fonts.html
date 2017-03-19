@@ -3,19 +3,102 @@
   <head>
     <meta charset="utf-8">
     <title>Web Fonts</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet"/>
+    <link href="web-fonts-style.css" rel="stylesheet"/>
   </head>
   <body>
+    <header>
+      <h1 id="title">David's Programming Cheat Sheet</h1>
+      <h2 id="sub-title">(and stuff)</h2>
+    </header>
+
     <div class="container">
-      <h1>Web Fonts</h1>
-      <p>Sometimes, we want to use a font beyond those that are pre-installed on our computers. Maybe we want a font more elegant than "cursive," or maybe a font reminiscent of video games from the 80s. Other sites have been able to use far more varied fonts, but how?!</p>
-      <p>There are a couple of different ways to import fonts from the web, and I cover a few methods below.</p>
 
-      <h2>@font-face</h2>
-      <p>When Best to Use This Method: When using a font on your own server/computer</p>
+      <nav>
+        <a class="nav-button" href="index.html">
+          <div class="buttons">
+            HOME
+          </div>
+        </a>
 
+        <a class="nav-button" href="colors.html">
+          <div class="buttons">
+            COLORS
+          </div>
+        </a>
+
+        <a class="nav-button" href="opacity.html">
+          <div class="buttons">
+            OPACITY
+          </div>
+        </a>
+
+        <a class="nav-button" href="line-height.html">
+          <div class="buttons">
+            LINE-HEIGHT
+          </div>
+        </a>
+
+        <a class="nav-button" href="border-radius.html">
+          <div class="buttons">
+            BORDER RADIUS
+          </div>
+        </a>
+
+        <a class="nav-button" href="web-fonts.html">
+          <div class="buttons">
+            WEB FONTS
+          </div>
+        </a>
+
+      </nav>
+
+      <div class="content">
+        <h1>WEB FONTS</h1>
+        <p>There are several "Web Safe" fonts that most browsers can read (for a list of these fonts, click <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">here</a>).</p>
+        <p>But what if was want to use a different font? Maybe we want a font more elegant than "cursive," or maybe a font reminiscent of video games from the 80s. Other sites have been able to use far more varied fonts.</p>
+        <p>Some of my favorites include:</p>
+
+        <div class="sample-text">
+          <p id="vt323">VT323</p>
+          <p id="press-start">Press Start 2P</p>
+          <p id="orbitron">Orbitron</p>
+        </div>
+
+        <p>But how do you do such wizardry?! Well, there are a couple of methods.</p>
+
+        <p>(Just a quick note, when you use font-family with these fonts, include some "Web Safe" fonts as back up, in case there is a server issue.)</p>
+
+        <h2>@font-face</h2>
+        <p>When Best to Use This Method: When using a font from your own server/computer</p>
+        <p>How to Use: In your CSS file, type "@font-face" followed by your curly brackets. Inside of your brackets, you will need to include "font-family:" with the name of the font, as well as "src: url()" with the font file's location in your parenthesis.</p>
+        <p>From there, just use "font-family:" and the font-name anywhere in your CSS file.</p>
+        <p class="note">NOTE: @import must be included at the top of your CSS file.</p>
+
+        <h2>@import</h2>
+        <p>When Best to Use This Method: When using a font from an external server</p>
+        <p>How to Use: In your CSS file, type "@import url('')" with the URL for the font between the single-quotes. You do not use curly brackets when using @import.</p>
+        <p>Once your @import has been set up, you can just use "font-family:" and the font-name anywhere in your CSS file.</p>
+        <p>Many sites that offer fonts, including Google Fonts, will have the @import line ready for you to copy/paste.</p>
+        <p class="note">NOTE: As with using @font-face, @import must be included at the top of your CSS file.</p>
+
+        <h2>&lt;link&gt;ing in HTML"</h2>
+        <p>When Best to Use This Method: When you'd rather add the font via HTML than CSS</p>
+        <p>How to Use: In your &lt;head&gt; section, create a &lt;link&gt; tag. Set an "href" to the font's URL, and set "rel" to stylesheet. From there, you can use "font-family:" with the font name in your CSS.</p>
+        <p class="note">NOTE: Google Fonts, as well as other sites, will have the &lt;link&gt; line ready for you to copy/paste.</p>
+
+        <p class="add-res">Additional Resources:</p>
+        <p><a href="https://css-tricks.com/snippets/css/using-font-face/">CSS Tricks</a></p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts">Mozilla Developer Network</a></p>
+        <p><a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">W3Schools</a></p>
+      </div>
 
     </div>
+
+    <footer>
+      <p>©20xx</p>
+    </footer>
+
 
   </body>
 </html>
