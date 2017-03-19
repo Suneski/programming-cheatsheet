@@ -125,12 +125,12 @@ nav > a {
 /* *************************************************** */
 
 .content {
-  width: 72%;
+  width: 70%;
   height: 1500px;
   float: right;
   color: black;
   padding-top: 20px;
-  padding-left: 1%;
+  padding-left: 2%;
 	margin-right: 7%;
 }
 
@@ -166,7 +166,7 @@ nav > a {
 }
 
 .kitties {
-	width: 50%;
+	width: 75%;
 	display: block;
 	margin: 0 auto;
 	border-radius: 5px;
