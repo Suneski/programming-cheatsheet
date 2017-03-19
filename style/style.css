@@ -130,7 +130,7 @@ nav > a {
   float: right;
   color: black;
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 1%;
 	margin-right: 7%;
 }
 
@@ -166,7 +166,7 @@ nav > a {
 }
 
 .content img {
-	width: 800px;
+	width: 50%;
 	display: block;
 	margin: 0 auto;
 	border-radius: 5px;
