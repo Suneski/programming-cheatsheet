@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>JavaScript: Variables</title>
     <link href="style/style.css" rel="stylesheet"/>
+    <link href="style/javascript-variables-style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -59,7 +60,50 @@
       </nav>
 
       <div class="content">
-        <h1>JavaScript: Variables</h1>
+        <h1>JAVASCRIPT: VARIABLES</h1>
+
+        <p>~high school math flashbacks!~</p>
+
+        <p>Variables are best thought of as containers that hold certain values. These values can then be referenced and/or used later in a program by referencing the variable.</p>
+
+        <p>Variables can hold various types of information inputs, include (but not limited to):</p>
+
+        <div class="types-of-variables">
+          <ul>
+            <li>Strings</li>
+            <li>Numbers</li>
+            <li>Objects</li>
+          </ul>
+        </div>
+
+        <p>To set up a variable in JavaScript, all you need to do is type "var" + the variable's name + "=" + the value being inputted + ";"</p>
+        <p><span style="font-weight:bold">NOTE:</span> When naming your variable, never start with a capitalized letter. Always start lower case. Additionally, a variable's name must NOT include any spaces. Either use camel case (ex: camelCase), kebab case (ex: kebab-case), snake case (ex: snake_case), or some similar variation.</p>
+
+        <p>Example:</p>
+
+        <div class="example">
+          <p><span style="font-weight:bold">var</span> superAwesomeVariable = 'My variable contains a string';</p>
+        </div>
+
+        <p>If you need to change your variable value, all you need to do is replace its value with a new value.</p>
+
+        <p>You can combine variables inside of variables.</p>
+
+        <div class="example">
+          <p><span style="font-weight:bold">var</span> pizzas = 5;</p>
+          <p><span style="font-weight:bold">var</span> slicesPerPizza = 8;</p>
+          <p><span style="font-weight:bold">var</span> totalSlices = pizzas * slicesPerPizza;</p>
+        </div>
+          <p>Once you set up these variable, if you run it in your console, you see your combined value.</p>
+
+
+        <img src="images/pizza-variable.png" alt="screencap of chrome console running pizza" class="chrome-variables"/>
+
+        <p style="margin-top:10px;">You can even combine strings!</p>
+
+        <img src="images/adding-variables.png" alt="adding variables image"  class="chrome-variables"/>
+
+
 
         <p class="add-res">Additional Resources:</p>
         <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var">Mozilla Developer's Network</a></p>
