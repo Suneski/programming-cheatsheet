@@ -165,6 +165,15 @@ nav > a {
 	line-height: 1.5;
 }
 
+.content img {
+	width: 800px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 15px;
+	border: 1px black solid;
+}
+
 /* ************************************************** */
 /*                       FOOTER                       */
 /* ************************************************** */
