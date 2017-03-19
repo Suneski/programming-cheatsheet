@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Press+Start+2P');
 
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -107,7 +107,7 @@ nav > a {
 
 .buttons {
   background-color: lightgrey;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 20px;
   padding: 15px 0;
   display: block;
@@ -165,7 +165,7 @@ nav > a {
 	line-height: 1.5;
 }
 
-.content img {
+.kitties {
 	width: 50%;
 	display: block;
 	margin: 0 auto;
