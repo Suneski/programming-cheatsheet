@@ -109,7 +109,7 @@ nav > a {
   background-color: lightgrey;
   font-family: 'Orbitron', sans-serif;
   font-size: 20px;
-  padding: 15px 0;
+  padding: 2% 0;
   display: block;
   text-align: center;
   border-radius: 5px;
@@ -127,7 +127,7 @@ nav > a {
 .content {
   width: 70%;
   height: 1500px;
-  float: right;
+  float: left;
   color: black;
   padding-top: 20px;
   padding-left: 2%;
