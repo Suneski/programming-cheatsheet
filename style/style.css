@@ -149,6 +149,9 @@ footer {
   right: 0px;
   padding: 10px 15px 10px 0; }
 
+.border-list {
+  padding-left: 20px; }
+
 .four-values {
   border-radius: 10px 20px 30px 40px;
   width: 100px;
@@ -176,6 +179,21 @@ footer {
   height: 100px;
   background-color: black;
   margin-bottom: 20px; }
+
+#lh-1 {
+  margin-left: 25px; }
+
+#lh-1point5 {
+  line-height: 1.5;
+  margin-left: 25px; }
+
+#lh-2 {
+  line-height: 2;
+  margin-left: 25px; }
+
+#lh-5 {
+  line-height: 5;
+  margin-left: 25px; }
 
 .red {
   color: red; }
