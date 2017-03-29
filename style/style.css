@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Orbitron|Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Press+Start+2P|VT323");
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -46,9 +46,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* ************************************************** */
-/*                       HEADER                       */
-/* ************************************************** */
 header {
   font-family: 'Press Start 2P', cursive;
   color: white;
@@ -66,20 +63,14 @@ header {
   font-size: 15px;
   padding-top: 10px; }
 
-/* ****************************************************** */
-/*                       MAIN AREA                        */
-/* ****************************************************** */
 .container {
   margin-top: 85px;
   margin-bottom: 50px; }
 
-/* ****************************************************** */
-/*                       NAVIGATION                       */
-/* ****************************************************** */
 nav {
   background-color: grey;
   width: 20%;
-  height: 1500px;
+  min-height: 1600px;
   float: left;
   color: black; }
 
@@ -102,12 +93,8 @@ nav > a {
   background-color: rgba(232, 232, 232, 0.5);
   color: rgba(0, 3, 255, 0.55); }
 
-/* *************************************************** */
-/*                       CONTENT                       */
-/* *************************************************** */
 .content {
   width: 70%;
-  height: 1500px;
   float: left;
   color: black;
   padding-top: 20px;
@@ -151,9 +138,6 @@ nav > a {
 .add-res {
   margin-top: 20px; }
 
-/* ************************************************** */
-/*                       FOOTER                       */
-/* ************************************************** */
 footer {
   position: fixed;
   color: white;
@@ -163,4 +147,135 @@ footer {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  padding: 20px 15px 20px 0; }
+  padding: 10px 15px 10px 0; }
+
+.four-values {
+  border-radius: 10px 20px 30px 40px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 20px; }
+
+.three-values {
+  border-radius: 10px 20px 30px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 20px; }
+
+.two-values {
+  border-radius: 10px 20px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 20px; }
+
+.one-value {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 20px; }
+
+.red {
+  color: red; }
+
+.blue {
+  color: blue; }
+
+.green {
+  color: green; }
+
+.orange {
+  color: orange; }
+
+.yellow {
+  color: yellow; }
+
+.purple {
+  color: purple; }
+
+.light-steel-blue {
+  color: lightsteelblue; }
+
+.pale-goldenrod {
+  color: palegoldenrod; }
+
+.plum {
+  color: plum; }
+
+.nav-button {
+  text-decoration: none; }
+
+.left-panel a {
+  color: black; }
+
+.left-panel a:visited {
+  color: black; }
+
+.hex-red {
+  color: #FF0000; }
+
+.lighter-hex-red {
+  color: #ff7777; }
+
+#new-color {
+  color: #9136ff; }
+
+.example {
+  margin-left: 20px; }
+
+.types-of-variables {
+  margin-left: 20px; }
+
+ul {
+  list-style: square; }
+
+.chrome-variables {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: 1px black solid; }
+
+#fully-opaque {
+  background-color: black;
+  width: 100px;
+  height: 100px; }
+
+#seventy-five-opaque {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100px;
+  height: 100px; }
+
+#fifty-opaque {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100px;
+  height: 100px; }
+
+#twenty-five-opaque {
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100px;
+  height: 100px; }
+
+#ten-opaque {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100px;
+  height: 100px; }
+
+.note {
+  font-weight: bold; }
+
+.sample-text {
+  padding-left: 20px; }
+
+#vt323 {
+  font-family: 'VT323', monospace;
+  font-size: 20px; }
+
+#press-start {
+  font-family: 'Press Start 2P', cursive; }
+
+#orbitron {
+  font-family: 'Orbitron', sans-serif; }

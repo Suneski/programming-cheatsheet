@@ -1,0 +1,29 @@
+nav {
+  background-color: grey;
+  width: 20%;
+  min-height: 1600px;
+  float: left;
+  color: black;
+}
+
+nav > a {
+  border: rgba(108, 108, 108, 0.63) 1px solid;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.buttons {
+  background-color: lightgrey;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  padding: 2% 0;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.buttons:hover {
+  background-color: rgba(232, 232, 232, 0.5);
+  color: rgba(0, 3, 255, 0.55);
+}

@@ -1,0 +1,52 @@
+.content {
+  width: 70%;
+  float: left;
+  color: black;
+  padding-top: 20px;
+  padding-left: 2%;
+	margin-right: 7%;
+}
+
+.content h1 {
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.content h2 {
+	font-size: 25px;
+	padding: 10px 0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.content h3 {
+	font-size: 20px;
+	font-style: italic;
+	margin: 30px 0 10px 0;
+}
+
+.content ul, ol {
+	margin: 10px 0;
+	font-size: 15px;
+}
+
+.content p {
+	font-style: normal;
+	padding: 5px 0;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.kitties {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 15px;
+	border: 1px black solid;
+}
+
+.add-res {
+  margin-top: 20px;
+}
