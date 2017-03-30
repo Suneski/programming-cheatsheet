@@ -279,7 +279,7 @@ strong {
   background-color: red;
   transition: width 2s, height 2s, border-radius 2s, background-color 2s; }
 
-.make-my-monster-grow {
+.make-my-monster-grow:hover {
   width: 300px;
   height: 300px;
   border-radius: 100%;

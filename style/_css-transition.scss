@@ -1,3 +1,5 @@
+$square-initial-color: red;
+
 em {
   font-style: italic;
 }
@@ -10,7 +12,7 @@ strong {
   width: 100px;
   height: 100px;
   margin: 5px 0;
-  background-color: red;
+  background-color: $square-initial-color;
 }
 
 .change-box-color:hover {
@@ -25,7 +27,7 @@ strong {
   width: 100px;
   height: 100px;
   margin: 5px 0;
-  background-color: red;
+  background-color: $square-initial-color;
   transition: width 2s;
 }
 
@@ -42,11 +44,11 @@ strong {
     width: 100px;
     height: 100px;
     margin: 5px 0;
-    background-color: red;
+    background-color: $square-initial-color;
     transition: width 2s, height 2s, border-radius 2s, background-color 2s;
 }
 
-.make-my-monster-grow {
+.make-my-monster-grow:hover {
     width: 300px;
     height: 300px;
     border-radius: 100%;
