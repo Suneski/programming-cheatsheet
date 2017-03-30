@@ -72,6 +72,50 @@
 
       <div class="content">
         <h1>CSS TRANSITION</h1>
+
+        <p>With the use of psuedo-classes, you can change an element when an action is taken on that element. For example, if you have a red square, you can set the pseudo-class ":hover" to it so that it changes to a different color when the mouse is hovering over the square, such as with the square below.</p>
+
+        <div class="change-box-color"></div>
+
+        <p><em>Code:</em></p>
+
+        <img src="images/change-box-color.png" alt="change box color code" class="code-img" />
+
+        <p>As you can see in the code, the psuedo-class ":hover" changes the background color for the square from red to blue.</p>
+
+        <p>But this transformation is instantaneous. What if you want to see the transformation?</p>
+
+        <p class="css-transitions">We use CSS Transitions!!</p>
+
+        <p>With the help of the transition property, you can have your element transform over the course of a set amount of time that you determine. For example, let's say you have another red square, and you want to change its width from its initial 100px to 400px.  You start by creating your square as you normally would in HTML and CSS. However, in your selector, you're going to add "transition:" along with the selector you want to change, along with how much time you want the transformation to take up (in seconds, denoted with an 's'). Hover over the square below to see the transition property in effect.</p>
+
+        <div class="longer-box"></div>
+
+        <p><strong>Note:</strong> When you stop hovering over the elemnt, it will revert back to it's original state, but it won't be instantaneous. The amount of time you select for the transformation to occur will also be used to reverse the transformation</p>
+
+        <p><em>Code:</em></p>
+
+        <img src="images/longer-box.png" alt="longer box transition code" class ="code-img" />
+
+        <p>What's really cool is you can transition multiple properties at once! Below is our standard red square, but hover over it!</p>
+
+        <div class="make-my-monster-grow"></div>
+
+        <p>Here, we are changing the elements width, height, border-radius AND background-color. Each of these have been set to change at the same speed, making the transformation more fluid.</p>
+
+        <p><em>Code:</em></p>
+
+        <img src="images/make-my-monster-grow.png" alt="make my monster grow code" class ="code-img-long" />
+
+        <p>Numerous options are available, and integrating JavaScript opens up more possibilities.</p>
+
+        <p><strong>Note:</strong> Due to certain compatabilities, it may be necessary/wise to add vendor prefixes to your transition property to ensure compatability across various browers. A list of prefixes can be found on MDN's CSS Transitions page (below).</p>
+
+
+        <p class="add-res">Additional Resources:</p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions">Mozilla Developer's Network</a></p>
+        <p><a href="https://www.w3schools.com/css/css3_transitions.asp">W3Schools</a></p>
+        <p><a href="http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/">Web Designer Depot</a></p>
       </div>
 
     </div>
