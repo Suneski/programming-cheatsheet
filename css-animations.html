@@ -72,8 +72,46 @@
 
       <div class="content">
         <h1>CSS ANIMATIONS</h1>
-      </div>
 
+        <div class="arena">
+          <img src="images/pac-man-ghost.png" class="ghost"/>
+        </div>
+
+        <p>With the use of CSS, you can animate objects on your page (like Clyde above). CSS is deceptively versatile when it comes to setting an animation. </p>
+
+        <p>Let's set up a simple animation with our old friend, Mr. Red Square.</p>
+
+        <ol class="make-red">
+          <li>First, create your object (in this case, the div that is the red square).</li>
+          <li>Within the object's selector, set your "animation-name:" to something of your choosing. For this example, I've named mine 'to-mr-blue-box'</li>
+          <li>Next, select your animation's duration with "animation-duration:" (include the unit 's' for seconds or 'ms' for milliseconds). For this example, I have my animation duration set to 5s</li>
+          <li>From here, you can include several different animation options (full lists included in resources below). These include, but are not limited to, setting how many times the animation will occur, direction, immediacy of animation, and more! Since we are building a simple color-changing square, we'll hold off on most of these.<p>NOTE: I will be including the "animation-iteration-count" property, and setting it to infinite. </p></li>
+          <li>Now that we have added our basic square, we need to create a new rule, a keyframe rule. To do this, use @keyframes, along with the name of your animation, followed by squiggle brackets.</li>
+          <li>Between your squiggle brackets, you will want to set a from{} and a to{}</li>
+          <li>Depending on your animation, you may or may not have something between your from-squigglies. This could include location on a page or other initial properties. For this example, we'll just be leaving it blank.</li>
+          <li>The to{} is where it gets exciting. This is the final state of your animation. This is what you want your animation "to" become. For this example, I've set the background color to blue, but I could also change numerous other properties, including size and location.<p>NOTE: Instead of to/from, you can also set percentages, such as 0%{}, 25%{}, 100%{} etc. This allows for differing transitions at different points of the animation.</p></li>
+          <li>Voila! A Mr. Red Box is now Mr. Blue Box! And here he is, along with his code!</li>
+        </ol>
+
+        <div class="mr-red-box"></div>
+
+        <img src="images/mr-red-box.png" class="mrb-code">
+
+        <p>Hold up. Dial it back a bit. So when do you use CSS animations, and when do you use CSS transition?</p>
+
+        <p>It depends on what you need!</p>
+
+        <p>If your animation needs to start as soon as the page loads (without some sort of provocation), or if it is more than going from one state to another, then use CSS animation.</p>
+
+        <p>If it's a simple transition from one state to another, or is something that requires some user interaction (such as a hover or a click), then CSS transition is good option</p>
+
+        <p class="add-res">Additional Resources:</p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations">Mozilla Developer's Network</a></p>
+        <p><a href="https://www.w3schools.com/css/css3_animations.asp">W3Schools</a></p>
+        <p><a href="https://css-tricks.com/almanac/properties/a/animation/">CSS Tricks</a></p>
+        <p><a href="https://cssanimation.rocks/transition-vs-animation/">CSS Animation Rocks</a></p>
+
+      </div>
     </div>
 
     <footer>

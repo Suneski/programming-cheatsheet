@@ -240,26 +240,48 @@ footer {
 #new-color {
   color: #9136ff; }
 
+.make-red {
+  list-style: decimal;
+  list-style-position: inside;
+  line-height: 2; }
+
 .arena {
   height: 200px;
-  width: 800px;
-  outline: 1px solid black; }
+  width: 100%;
+  margin: 10px 0; }
 
-.ball {
+.ghost {
   height: 200px;
   width: 200px;
-  border-radius: 100%;
   background-color: black;
   animation-duration: 2s;
-  animation-name: slidein;
+  animation-name: ghost;
   animation-iteration-count: infinite;
-  animation-direction: alternate; }
+  animation-direction: alternate;
+  animation-timing-function: linear; }
 
-@keyframes slidein {
+@keyframes ghost {
   from {
     margin-left: 75%; }
   to {
     margin-left: 0%; } }
+
+.mr-red-box {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  background-color: red;
+  animation-name: to-mr-blue-box;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+@keyframes to-mr-blue-box {
+  from { }
+  to {
+    background-color: blue; } }
+
+.mrb-code {
+  width: 300px; }
 
 em {
   font-style: italic; }
